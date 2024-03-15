@@ -16,7 +16,7 @@ public class EmployeeDeductions {
 
         System.out.print("Enter your current salary: ");
         salary = scanner.nextDouble();
-        scanner.nextLine(); // Consume the remaining newline character
+        scanner.nextLine(); 
 
         double totalDeductions = incomeTax + philHealth + sss + pagibig;
         double netSalary = salary - totalDeductions;
